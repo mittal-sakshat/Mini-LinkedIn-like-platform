@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- script font awesome -->
+    <script src="https://kit.fontawesome.com/943503763f.js" crossorigin="anonymous"></script>
+
+    
+    <title>Document</title>
+</head>
+<body>
+                      
+    
+    <!--Navigation Bar  -->
+
+
+    <div class="container-fluid top bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand nav-brand" href="#">Linkedin<i class="fa-brands fa-linkedin"></i></a>
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="">My Network</a>
+            </li>
+            <li class="nav-item">
+                <a  class="nav-link" href="">Jobs</a>
+            </li>
+            <li class="nav-item">
+                <a  class="nav-link" href="">Messaging</a>
+            </li>
+            <li class="nav-item">
+                <a  class="nav-link" href="">Notifications</a>
+            </li>
+        </ul>
+
+<button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        
+        </nav>
+    </div>
+
+<!-- login section -->
+
+
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Enter Email" name="email" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+<!-- left section -->
+    
+<div class="container-fluid">
+    <div class="row">
+        <nav class="left col-md-2 sidebar">
+            <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+                <li class="left-section nav-item">
+                    <a href="" class="nav-link">
+                        Your Profile
+                    </a>
+                </li>
+                
+                <li class="left-section nav-item">
+                    <a href="" class="nav-link">
+                        Who viewed your profile
+                    </a>
+                </li>
+                
+                <li class="left-section nav-item">
+                    <a href="" class="nav-link">
+                        Connections
+                    </a>
+                </li>
+                
+                <li class="left-section nav-item">
+                    <a href="" class="nav-link">
+                        Find alumni and classmates
+                    </a>
+                </li>
+                </ul>
+                <h6 class="left-section sidebar-heading">
+                    <span>Recent</span>
+                </h6>
+
+                <ul class=" nav flex-column">
+                    <li class="left-section nav-item">
+                        <a href="" class="nav-link">Groups</a>
+                    </li>
+                    
+                    <li class="left-section nav-item">
+                        <a href="" class="nav-link">Events</a>
+                    </li>
+                    
+                </ul>
+            
+            </div>
+        </nav>
+        
+        <!-- start a post -->
+        <div class="col-md-7 start-post">
+            <div class="share-box-feed-entry artdeco-card">
+                <div class="align-items-center">
+                    <a href="">
+                        <div class="share-box-feed-entry_avatar">
+                            <img src="" alt="" class="EntityPhoto-circle-3">
+                        </div>
+                    </a>
+                    <button class="artdeco-button artdeco-button--muted artdeco-button--4 artdeco-button--tertiary ember-view share-box-feed-entry_trigger">
+                        <span class="artdeco-button_text">Start a post</span>
+                    </button>
+                </div>
+            </div>
+
+<!-- card1 -->
+
+<div class="p">
+    <div class="card cards h-md-250">
+        <div  class="card-body">
+            <strong class="d-inline-block text-primary">World</strong>
+            <h3>
+                <a href="" class="text-dark">Featured Blog</a>
+            </h3>
+            <div class="text-muted">Nov-12</div>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content</p>
+            <a href="">Continue reading</a>
+        </div>
+    <img src="img0.jpg" alt="" class="card-image card-img-right">
+</div>
+
+<!-- Card 2 -->
+<div class="">
+    <div class="card cards">
+        <div  class="card-body">
+            <strong class="d-inline-block text-primary">Design</strong>
+            <h3>
+                <a href="" class="text-dark">Post title</a>
+            </h3>
+            <div class="text-muted">Nov-11</div>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="">Continue reading</a>
+        </div>
+    <img src="img2.jpg" alt="" class="card-image card-img-right">
+</div>
+
+
+
+<div class="">
+    <div class="card cards">
+        <div  class="card-body">
+            <strong class="d-inline-block text-primary">Development</strong>
+            <h3>
+                <a href="" class="text-dark">FullStack Development</a>
+            </h3>
+            <div class="text-muted">Nov-12</div>
+            <p class="card-text">Full stack developers are in top demand in all MNCs. Start your carrier with us at student friendly price.</p>
+            <a href="">Continue reading</a>
+        </div>
+    <img src="img1.jpg" alt="" class="card-image card-img-right">
+</div>
+
+
+        </div>
+        <div class="w-100"></div>
+
+    </div>
+</div>
+
+
+<!-- footer section -->
+
+<div class="footer-clean">
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Legacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Careers</h3>
+                    <ul>
+                        <li><a href="#">Job openings</a></li>
+                        <li><a href="#">Employee success</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    <p class="copyright"><i class="fa-brands fa-linkedin"></i>Linkedin © 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
